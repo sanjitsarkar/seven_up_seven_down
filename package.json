@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node dist/server.js",
-    "build": "tsc-watch -p .",
+    "build": "tsc -p .",
     "dev": "tsc-watch --onSuccess \"node dist/server.js\"",
     "lint": "tsc"
   },
